@@ -1,0 +1,7 @@
+interface:
+  display_name: "抖音主页采集下载"
+  short_description: "输入抖音主页链接，采集作品数据，下载前先让用户选择范围"
+  default_prompt: "Use $douyin-profile-video-collect to collect public data from a Douyin profile URL, present download options, and only download media after I choose an option."
+
+policy:
+  allow_implicit_invocation: true
